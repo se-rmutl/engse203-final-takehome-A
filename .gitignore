@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# build output — สร้างใหม่ได้ทุกครั้ง
+frontend/dist/
+
+# ฐานข้อมูลในเครื่อง — สร้างใหม่ด้วย npm run db:setup --prefix api
+api/data/*.db
+
+# รายงาน coverage
+api/coverage/
+
+.DS_Store
+*.log

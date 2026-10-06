@@ -1,0 +1,9 @@
+{
+  "team": "",
+  "section": "",
+  "projectRepo": "",
+  "members": [
+    { "name": "", "studentId": "", "github": "", "email": "", "role": "fe" },
+    { "name": "", "studentId": "", "github": "", "email": "", "role": "be+devops" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "dorm-parcel-service",
+  "private": true,
+  "description": "ENGSE203 Final Exam Part 1 (Take-Home ชุด A) — ระบบรับพัสดุหอพัก",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node scripts/test-all.mjs",
+    "build": "npm install --include=dev --prefix frontend && npm run build --prefix frontend && npm install --prefix api",
+    "start": "npm start --prefix api"
+  }
+}
